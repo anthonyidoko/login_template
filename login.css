@@ -19,7 +19,7 @@
 }
 
 .form{
-    background-color: rgb(99, 129, 16);
+    background-color: gray;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -28,6 +28,7 @@
     grid-gap: none;
     border: 2px solid gray;
     border-radius: 10px;
+    height: 80%;
 
     
     
@@ -39,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     font-weight: bold;
     
     background-color: gray;
@@ -53,6 +54,7 @@
     
     grid-area:1/1 / span 1/-1;
     font-size: 1.5rem;
+    margin-top: auto;
    
     
     
@@ -66,7 +68,7 @@
 #c{
     
     text-align: center;
-    
+    margin: -20px 0px auto 0px;
     grid-area:3/1 / span 1/-1;
 }
 
