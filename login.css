@@ -1,0 +1,95 @@
+
+
+.form{
+    background-color: rgb(99, 129, 16);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+    
+    
+    
+
+}
+
+.items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    
+    background-color: gray;
+  
+    
+    
+   
+
+}
+#a{
+    
+    grid-area:1/1 / span 1/-1;
+    font-size: 1.5rem;
+    
+    
+}
+#b{
+    
+    grid-area:2/1 / span 1/-1;
+    font-size: 1.5rem;
+   
+}
+#c{
+    
+    text-align: center;
+    
+    grid-area:3/1 / span 1/-1;
+}
+
+
+#username{
+    background-color: rgb(209, 201, 201);
+    height: 40px;
+    width: 600px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid rgb(209, 201, 201);
+    flex: 0.5 1 100px;
+}
+#password{
+    background-color: rgb(209, 201, 201);
+    height: 40px;
+    width: 600px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid rgb(209, 201, 201);
+    flex: 0.5 1 100px;
+}
+
+#forgot-password{
+    height: 40px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    flex: 0.5 1 100px;
+    
+    
+
+}
+
+#signup{
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-color:  rgb(209, 201, 201);
+    border-style: solid;
+    flex: 0.1 0 20px;
+  
+    
+}
