@@ -1,20 +1,14 @@
 
+body{
+    background: rgb(126, 199, 204)
+}
 .container{display: flex;
     justify-content: center;
     align-items: center;
     height:100% ;
-    margin:0 50px
+    margin:0 50px;   
+   
     
-    /*
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(1,1fr);
-    justify-content: space-around;
-    align-items: center;
-    height:100% ;
-    align-items: auto;
-    
-    margin: 0 50px;*/
 
 }
 
@@ -25,15 +19,10 @@
     grid-template-rows: repeat(3,1fr);
     justify-content: center;
     align-items: center;
-    grid-gap: none;
+    
     border: 2px solid gray;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 80%;
-
-    
-    
-    
-
 }
 
 .items{
@@ -98,6 +87,7 @@
     font-size: 1rem;
     color: white;
     flex: 0.5 1 100px;
+    
     
     
 
